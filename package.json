@@ -1,0 +1,11 @@
+{
+  "name": "florianlb.fr",
+  "version": "0.0.0",
+  "private": "true",
+  "author": "Florian Lonqueu-Brochard",
+  "license": "All rights reserved.",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-cssmin": "~0.8.0"
+  }
+}
