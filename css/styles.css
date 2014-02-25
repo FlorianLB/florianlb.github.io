@@ -59,6 +59,7 @@ li {
     }
 }
 
-h2 {
-    font-size: 25px;
+a[lang="fr"]:after {
+    content: " [fr]";
 }
+
