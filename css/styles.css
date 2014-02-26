@@ -28,6 +28,7 @@ li {
 }
 
 #hexalinks a{
+    display: inline-block;
     position:relative;
 }
 
@@ -54,12 +55,18 @@ li {
 }
 
 @media screen and (max-width: 500px) {
-    #github-label {
-        right: 0;
-    }
+    #github-label { right: -40px; }
+}
+
+@media screen and (max-width: 380px) {
+    #hexalinks a:first-child { margin: 0 0 15px; }
 }
 
 a[lang="fr"]:after {
     content: " [fr]";
+}
+
+h2 img {
+    vertical-align: baseline;
 }
 
